@@ -1,0 +1,114 @@
+.top {
+    height: 641.35px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, .98), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+
+    font-family: 'Open Sans', Arial;
+}
+
+
+.front {
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    height: 641.35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 375px;
+    margin-right: 375px;
+   
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-text {
+    height: 112.6px;
+}
+
+.p1 {
+    font-size: 49px;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.p2 {
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.button-3 {
+    font-size: 16px;
+    font-weight: 500;
+    width: 262.5px;
+    height: 74px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+    margin-top: 25px;
+    border: none;
+    background-color: #f7db2f;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: white;
+    margin-top: 35px;
+    position: relative;
+}
+
+.main-banner {
+    width: 1100px;
+    padding: 20px;
+}
+
+.effect-1 {
+    position: absolute;
+    height: 453.75px;
+    width: 1100px;
+    top: 20px;
+    right: 20px;
+    background-image: linear-gradient(rgba(1, 1, 1, 0.25), rgba(1, 1, 1, 0.25), rgba(1, 1, 1, 0.25), rgba(1, 1, 1, 1));
+    cursor: pointer;
+}
+
+.effect-1-text {
+    margin-top: 269.75px;
+    padding: 35px;
+    
+}
+
+.effect-1-heading {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.effect-1-heading:hover {
+    text-decoration: underline;
+}
+
+.effect-1-line {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.effect-read-more {
+    font-weight: 700;
+}
+
+.effect-read-more:hover {
+    text-decoration: underline;
+}

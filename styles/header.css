@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 77px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Open Sans', Arial;
+    background-color: white;
+
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+  }
+
+.mlh-logo {
+    height: 46.35px;
+    margin-left: 40px;
+}
+
+.mlh-logo,
+.menu,
+.button-1,
+.button-2 {
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 999px;
+}
+
+
+.menu {
+    font-size: 16px;
+    padding: 15px;
+    font-weight: 200;
+    color: #353535;
+    transition: background-color 0.2s;
+}
+
+.menu:active {
+    background-color: #ebebeb;
+}
+
+.button-1,
+.button-2 {
+    font-size: 16px;
+    font-weight: 700;
+    height: 47px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-1 {
+    background-color: rgb(236, 199, 0);
+    color: rgb(103, 104, 105);
+}
+
+.button-2 {
+    background-color: rgb(38, 90, 143);
+    color: rgb(255, 255, 255);
+}

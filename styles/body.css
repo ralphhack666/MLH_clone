@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial;
+    
+}
+
+.background-img {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1920px;
+    z-index: -1;
+}
