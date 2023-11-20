@@ -1,32 +1,29 @@
 .middle {
+    display: flex;
+    width: 100%;
     padding-top: 20px;
-
-    background-color: white;
+    background-color: #f7f9f9;
 }
 
 .main-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
     width: 1170px;
-    margin-left: 375px;
-    margin-right: 375px;
 }
 
 .left-panel {
     display: flex;
     flex-direction: column;
-    width: 780px;
     padding-left: 35px;
-   
 }
 
 .section {
     display: flex;
     flex-direction: row;
-    
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #cfd1d1;
@@ -44,8 +41,7 @@
     cursor: pointer;
 }
 
-.profile {
-    
+.profile {   
     height: 39px;
     width: 39px;
     border-radius: 21px;
@@ -73,6 +69,7 @@
     margin: 0;
     padding-bottom: 5px;
     color: #393c3e;
+    text-decoration: none;
 }
 
 .first:hover {
@@ -90,7 +87,8 @@
 
 .read-more {
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.651);
+    color: #393c3e;
+    text-decoration: none;
 }
 
 .read-more:hover {
@@ -104,8 +102,10 @@
 }
 
 .author {
+    color: #c1c9cd;
     cursor: pointer;
     transition: color 0.7s;
+    text-decoration: none;
 }
 
 .author:hover {
@@ -113,24 +113,25 @@
 }
 
 .button-div {
+    display: flex;
     height: 99.15px;
     padding-top: 13px;
 }
 
 .button-4 {
-    font-size: 12px;
-    font-weight: 300;
-    color: #868d90;
     background-color: white;
     width: 255.15px;
     height: 39.15px;
     padding: 10px;
-    margin-left: 245.7585px;
     border-radius: 3px;
     border-width: 1px;
     border-style: solid;
     border-color: #dee0e0;
+    margin: 0 auto;
     margin-top: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #868d90;
     cursor: pointer;
     transition: background-color 0.7s, color 0.7s;
 }
@@ -141,22 +142,18 @@
 }
 
 .right-panel {
-    width: 360px;
     display: flex;
-    padding-right: 30px;
     flex-direction: column;
-
+    padding-right: 30px;
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: #cfd1d1;
 }
 
-.div-1 {
-    
+.div-1 {  
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 27px;
-    background-color: white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #c1c9cd;
@@ -198,8 +195,6 @@
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 27px;
-    background-color: white;
-
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #c1c9cd;
@@ -260,11 +255,9 @@
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 27px;
-    background-color: white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #c1c9cd;
-
 }
 
 .div-3-text {

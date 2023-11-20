@@ -1,6 +1,6 @@
 .bottom {
-    height: 431.6px;
-
+    display: flex;
+    width: 100%;
     background-color: #e3e8e8;
     border-top: 1px solid #a9afb0;
 
@@ -9,11 +9,9 @@
 .bottom-main {
     display: flex;
     flex-direction: column;
-    width: 1170px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 375px;
-    margin-right: 375px;
+    margin: 0 auto;
 }
 
 .end {

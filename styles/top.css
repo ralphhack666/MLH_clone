@@ -1,21 +1,16 @@
 .top {
-    height: 641.35px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, .98), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
-
-    font-family: 'Open Sans', Arial;
+    background-image: linear-gradient(rgba(247, 249, 249, 0), rgba(247, 249, 249, .1), rgba(247, 249, 249, .5), rgba(247, 249, 249, .98), rgba(247, 249, 249, 1), rgba(247, 249, 249, 1));
+    display: flex;
+    width: 100%;
 }
-
 
 .front {
     display: flex;
     flex-direction: column;
-    width: 1140px;
-    height: 641.35px;
+    justify-content: center;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 375px;
-    margin-right: 375px;
-   
 }
 
 .heading {
@@ -25,7 +20,7 @@
 }
 
 .main-text {
-    height: 112.6px;
+   flex: 1;
 }
 
 .p1 {
@@ -51,16 +46,16 @@
     height: 74px;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-radius: 3px;
     margin-top: 25px;
+    border-radius: 3px;
     border: none;
     background-color: #f7db2f;
     cursor: pointer;
 }
 
 .banner {
-    background-color: white;
-    margin-top: 35px;
+    background-color: #f7f9f9;
+    margin-top: 28px;
     position: relative;
 }
 
@@ -82,7 +77,6 @@
 .effect-1-text {
     margin-top: 269.75px;
     padding: 35px;
-    
 }
 
 .effect-1-heading {
@@ -90,6 +84,7 @@
     font-size: 36px;
     font-weight: 700;
     margin: 0;
+    text-decoration: none;
 }
 
 .effect-1-heading:hover {
@@ -107,6 +102,8 @@
 
 .effect-read-more {
     font-weight: 700;
+    text-decoration: none;
+    color: white;
 }
 
 .effect-read-more:hover {
