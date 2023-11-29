@@ -46,11 +46,26 @@
 }
 
 .end-head-i {
+    position: relative;
+    display: flex;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 16px;
     color: #505353;
     font-weight: 700;
+}
+
+.end-head-i .end-div-2-tooltip {
+    position: absolute;
+    height: 14px;
+    left: 92px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.end-head-i:hover .end-div-2-tooltip {
+    opacity: 1;
 }
 
 .end-head-ii {
@@ -62,11 +77,13 @@
 }
 
 .end-body {
+    display: block;
     font-size: 14px;
     margin: 0;
     margin-bottom: 2px;
     color: #7b7f7f;
     font-weight: 300;
+    text-decoration: none;
     cursor: pointer;
     transition: color 0.6s;
 }

@@ -258,6 +258,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #c1c9cd;
+    position: relative;
 }
 
 .div-3-text {
@@ -271,6 +272,93 @@
 .div-3-image {
     height: 70px;
     width: 328px;
+}
+
+.effect-2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 328px;
+    top: 56.5px;
+    right: 17px;
+    background: linear-gradient( to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100% );
+}
+
+.effect-2-logo-mlh {
+    height: 55px;
+    padding: 8px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.effect-2-heading {
+    margin-bottom: 5px;
+}
+
+.effect-2-heading-text {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 6px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.effect-2-heading-text:hover {
+    text-decoration: underline;
+}
+
+.effect-2-heading-logo {
+    height: 13px;
+    margin-left: 2px;
+    border-radius: 9.5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    vertical-align: bottom;
+}
+
+.effect-2-line-button {
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, .12);
+    background-color: #f5f6f7;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.effect-2-line-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgb(137, 188, 230, 1);
+    background-color: #e4e4e4;
+}
+
+.effect-2-line-button-logo {
+    height: 12px;
+    vertical-align: middle;
+}
+
+.effect-2-line-button-text {
+    margin: 0;
+    display: inline-block;
+    color: #4b4f56;
+    font-weight: 500;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.effect-2-line-stats {
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 2px;
 }
 
 .div-3-button {
